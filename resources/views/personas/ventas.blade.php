@@ -39,6 +39,12 @@
       title: {
         display: true,
         text: 'Population growth (millions)'
+      },
+      scales:{
+       xAxes: [{
+         barPercentage: 0.8,
+         categoryPercentage: 0.2
+       }]
       }
     }
 }); //FIN DE CHART JS
